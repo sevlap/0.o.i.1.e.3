@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+		
+		<title>DJ MOII - Galerias</title>
+
+		<link rel="stylesheet" href="style.css">
+		<script src="js/angular.min.js"></script>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body>
+		
+		<div id="site-content">
+				<div ng-include src="'menu.html'"></div>
+			
+			<main class="main-content">
+				<div class="fullwidth-block gallery">
+					<div class="container">
+						<div class="content fullwidth">
+							<h2 class="entry-title">Gallery</h2>
+							<div class="filter-links filterable-nav">
+								<select class="mobile-filter">
+									<option value="*">Show all</option>
+									<option value=".concert">15 anos</option>
+									<option value=".band">Formaturas</option>
+									<option value=".stuff">Casamentos</option>
+								</select>
+								<a href="#" class="current" data-filter="*">Mostrar tudo</a>
+								<a href="#" data-filter=".concert">15 anos</a>
+								<a href="#" data-filter=".band">Formaturas</a>
+								<a href="#" data-filter=".stuff">Casamentos</a>
+							</div>
+							<div class="filterable-items">
+								<div class="filterable-item concert">
+									<a href="dummy/large-gallery/gallery-1.jpg"><figure><img src="dummy/gallery-1.jpg" alt="gallery 1"></figure></a>
+								</div>
+								<div class="filterable-item concert">
+									<a href="dummy/large-gallery/gallery-2.jpg"><figure><img src="dummy/gallery-2.jpg" alt="gallery 2"></figure></a>
+								</div>
+								<div class="filterable-item stuff">
+									<a href="dummy/large-gallery/gallery-3.jpg"><figure><img src="dummy/gallery-3.jpg" alt="gallery 3"></figure></a>
+								</div>
+								<div class="filterable-item concert">
+									<a href="dummy/large-gallery/gallery-4.jpg"><figure><img src="dummy/gallery-4.jpg" alt="gallery 4"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="dummy/large-gallery/gallery-5.jpg"><figure><img src="dummy/gallery-5.jpg" alt="gallery 5"></figure></a>
+								</div>
+								<div class="filterable-item stuff">
+									<a href="dummy/large-gallery/gallery-6.jpg"><figure><img src="dummy/gallery-6.jpg" alt="gallery 6"></figure></a>
+								</div>
+								<div class="filterable-item concert">
+									<a href="dummy/large-gallery/gallery-7.jpg"><figure><img src="dummy/gallery-7.jpg" alt="gallery 7"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="dummy/large-gallery/gallery-8.jpg"><figure><img src="dummy/gallery-8.jpg" alt="gallery 8"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="dummy/large-gallery/gallery-9.jpg"><figure><img src="dummy/gallery-9.jpg" alt="gallery 9"></figure></a>
+								</div>
+								<div class="filterable-item stuff">
+									<a href="dummy/large-gallery/gallery-10.jpg"><figure><img src="dummy/gallery-10.jpg" alt="gallery 10"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="dummy/large-gallery/gallery-11.jpg"><figure><img src="dummy/gallery-11.jpg" alt="gallery 11"></figure></a>
+								</div>
+								<div class="filterable-item stuff">
+									<a href="dummy/large-gallery/gallery-12.jpg"><figure><img src="dummy/gallery-12.jpg" alt="gallery 12"></figure></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> <!-- .testimonial-section -->
+
+				
+			</main> <!-- .main-content -->
+			<div ng-include src="'rodape.html'"></div>	
+
+		</div> <!-- #site-content -->
+
+		
+	</body>
+
+</html>
